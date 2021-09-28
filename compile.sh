@@ -11,6 +11,7 @@ addpath(genpath('.'));
 addpath(genpath('./jsonlab'));
 addpath(genpath('./vistasoft'));
 addpath(genpath('./fine'));
+addpath(genpath('./encode'));
 
 mcc -m -R -nodisplay -d compiled main
 exit

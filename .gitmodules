@@ -7,3 +7,6 @@
 [submodule "vistasoft"]
 	path = vistasoft
 	url = https://github.com/vistalab/vistasoft
+[submodule "encode"]
+	path = encode
+	url = https://github.com/brain-life/encode
