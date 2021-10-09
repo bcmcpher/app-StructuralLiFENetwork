@@ -2,8 +2,8 @@
 
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --mem=48G
-#SBATCH --time=32:00:00
+#SBATCH --mem=36G
+#SBATCH --time=28:00:00
 
 singularity exec -e docker://brainlife/mcr:r2019a ./compiled/main config.json
 
